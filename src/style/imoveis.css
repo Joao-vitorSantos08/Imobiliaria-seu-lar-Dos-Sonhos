@@ -1,5 +1,22 @@
-body {
-    background-color: #F5F5F5;
+.hero{
+    background: url("/src/assets/image/imovel\ 1.jpeg") center/cover no-repeat;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.hero-overlay{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 32px;
+    width: 100%;
+}
+
+.card-home-info{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 header {
@@ -19,9 +36,6 @@ header {
     opacity: 0.9;
 }
 
-
-
-
 .bg-header {
     background-image: url("/src/assets/image/imovel\ 1.jpeg");
     height: 85vh;
@@ -35,42 +49,6 @@ header {
     width: auto;
 
 }
-
-main{
-    background-color:rgba(234, 109, 37, 0.05);
-    color:  #EA6D27;
-}
-
-
-
-
-.imagem-carousel {
-    width: 280px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.199);
-    transition: 0.5s;
-
-}
-
-.imagem-carousel:hover {
-    transform: scale(1.07);
-}
-
-.imagem-carousel img {
-    width: 260px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-
-.card-home-info {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
 
 
 footer {
