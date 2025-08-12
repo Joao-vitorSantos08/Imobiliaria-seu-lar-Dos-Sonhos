@@ -58,11 +58,11 @@
 
     </section>
 
-    <main class=" col-11 col-md-6 col-lg-12 ">
-        <div class="container">
-            <h1 class="text-center mb-4">Bem-vindo à <span class="fw-bold fst-italic">Imobi</span> — Seu lar dos sonhos começa aqui!</h1>
-            <div class="d-flex justify-content-around align-items-center ">
-                <p class="w-50 fs-5 text-center">Há 35 anos, somos especialistas em transformar seus objetivos em realidade. Oferecemos
+    <main class=" col-12 p-4">
+        <div class="container ">
+            <h1 class="text-center mb-4 fs-3" >Bem-vindo à <span class="fw-bold fst-italic">Imobi</span> — Seu lar dos sonhos começa aqui!</h1>
+            <div class="d-flex align-items-center justify-content-around  flex-column flex-md-row">
+                <p class=" text-center fs-5 p-md-5">Há 35 anos, somos especialistas em transformar seus objetivos em realidade. Oferecemos
                     as melhores
                     oportunidades em casas, apartamentos e imóveis comerciais para venda, aluguel e temporada.</p>
                 <img src="./src/assets/image/Logo_laranja.png" alt="" style="width: 300px;">
@@ -71,13 +71,13 @@
 
     </main>
 
-    <section class="">
+    <section class="d-none d-sm-block justify-content-center">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active p-5">
                     <div class="row justify-content-center gap-5">
 
-                        <div class="card imagem-carousel">
+                        <div class="card imagem-carousel ">
                             <img src="./src/assets/image/imovel 1.jpeg" class="card-img-top " alt="...">
                             <div class="card-body">
                                 <h2 class="card-title h6">Apartamento 2 quartos</h2>
@@ -182,7 +182,68 @@
 
                 <span class="bg-dark border rounded-circle p-3"><i class="bi bi-arrow-left"></i></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="bg-dark border rounded-circle p-3"><i class="bi bi-arrow-right"></i></span>
+            </button>
+        </div>
+    </section>
+
+    <section class=" justify-content-center">
+        <div id="carouselmobile" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active p-5">
+                    <div class="row justify-content-center gap-5">
+
+                       
+                        <div class="card imagem-carousel">
+                            <img src="./src/assets/image/apartamento studio.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title h6">Apartamento Studio</h2>
+                                <div class="card-home-info">
+                                    <div><i class="bi bi-aspect-ratio"></i> 38 m²</div>
+                                    <div><i class="bi bi-house-door"></i> 1 Quartos</div>
+                                    <div><i class="bi bi-door-closed"></i> 1 Suíte</div>
+                                    <div><i class="bi bi-car-front"></i> 1 Vaga</div>
+                                    <div><i class="bi bi-bucket"></i> 2 Banheiros</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">Conhecer</a>
+                        </div>
+
+                       
+
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+
+                    <div class="row justify-content-center gap-5">
+
+                        <div class="card imagem-carousel">
+                            <img src="./src/assets/image/imovel 4.jpg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title h6">Apartamento 3 quartos</h2>
+                                <div class="card-home-info">
+                                    <div><i class="bi bi-aspect-ratio"></i> 113 m²</div>
+                                    <div><i class="bi bi-house-door"></i> 2 Quartos</div>
+                                    <div><i class="bi bi-door-closed"></i> 1 Suíte</div>
+                                    <div><i class="bi bi-car-front"></i> 2 Vagas</div>
+                                    <div><i class="bi bi-bucket"></i> 4 Banheiros</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">Conhecer</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#"
+                data-bs-slide="prev">
+
+                <span class="bg-dark border rounded-circle p-3"><i class="bi bi-arrow-left"></i></span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselmobile"
                 data-bs-slide="next">
                 <span class="bg-dark border rounded-circle p-3"><i class="bi bi-arrow-right"></i></span>
             </button>
@@ -193,28 +254,7 @@
 
     <footer class="container-fluid py-4  ">
         <div class="row footer-informacao ">
-            <div class="col-12 col-md-3 mb-3">
-                <h5 class="text-light">Menu Alternativo</h5>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Imoveis</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Sobre
-                            nós</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-white" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-
+                <img class="d-none d-md-block" src="./src/assets/image/logo_branco.png" alt="Logo" style="width: 200px;">
             <div class="col-md-5 offset-md-1 mb-3">
                 <form class="text-light">
                     <h2 class="h6">Quer receber as melhores ofertas de imóveis?</h2>
