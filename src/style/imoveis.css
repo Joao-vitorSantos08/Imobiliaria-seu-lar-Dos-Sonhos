@@ -14,7 +14,6 @@
 
 .card-home-info{
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
@@ -61,4 +60,14 @@ footer {
     justify-content: center;
     align-items: center;
 
+}
+
+.pagination .page-link {
+        color: #EA6D27;
+}
+
+.pagination .page-link:hover {
+    color: white;
+    background-color: #EA6D27;
+    border-color: #EA6D27;
 }

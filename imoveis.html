@@ -74,17 +74,17 @@
                 <div>
                     <h2 class="fs-4">300 Imóveis à venda e para alugar</h2>
                 </div>
-                <div class="d-flex" >
-                    <a href="./index.html" class="text-decoration-none">Home</a>
-                    <img src="./imagens/right-arrow.svg" alt="" style="width: 10px;">
-                    <a href="./imoveis.html" class="text-decoration-none">Imóveis</a>
+                <div class="" >
+                    <a href="./index.html" class="text-decoration-none me-2 text-dark">Home</a>
+                    <img src="./src/assets/image/right-arrow.svg" alt="" style="width: 10px;" class="me-2">
+                    <a href="./imoveis.html" class="text-decoration-none text-dark">Imóveis</a>
                 </div>
 
             </div>
 
-            <div>
+            <div class="d-flex align-items-start">
                 <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle border-1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Ordenar
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -93,19 +93,21 @@
                     <li><a class="dropdown-item" href="#">Mais Recentes</a></li>
                     <li><a class="dropdown-item" href="#">Mais Antigos</a></li>
                 </ul>
-            </div>
-
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Filtros</button>
-
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                    ...
+
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="./src/assets/image/filter.svg" alt="" style="width: 22px;">
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Filtros</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
                 </div>
-            </div>
             </div>
             
         </div>
@@ -113,7 +115,8 @@
 
     <section class="container">
         <div class="row">
-            <div class="col-md-4 m-0 m-md-3 ">
+
+            <div class="col-md-4 m-0 p-md-3 ">
                 <div class="card">
                     <!-- Carrocel -->
 
@@ -151,23 +154,493 @@
 
                     <div class="card-body">
                         <div class="d-flex g-5">
-                            <h2 class="card-title h6">Santo Amaro - São Paulo - SP</h2>
-                            <a class="card-title h6 text-decoration-none " href="./detalhes.htm">KN0101</a>
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
                         </div>
                         
+                        
                         <div class="card-home-info">
-                            <div><i class="bi bi-aspect-ratio"></i> 82 m²</div>
-                            <div><i class="bi bi-house-door"></i> 3 Quartos</div>
-                            <div><i class="bi bi-door-closed"></i> 1 Suíte</div>
-                            <div><i class="bi bi-car-front"></i> 2 Vagas</div>
-                            <div><i class="bi bi-bucket"></i> 2 Banheiros</div>
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
                         </div>
+                        
                     </div>
-                    <a href="./detalhes.html" class="btn">mais +</a>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
                 </div>
             </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 m-0 p-md-3 ">
+                <div class="card">
+                    <!-- Carrocel -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./src/assets/image/imovel 10.jpg" class="d-block w-100 img-fluid" alt="..."style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 13.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./src/assets/image/imovel 4.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 240px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Fim Carrocel -->
+
+                    <div class="card-body">
+                        <div class="d-flex g-5">
+                            <h2 class="card-title h6 me-5">Santo Amaro - São Paulo - SP</h2>
+                            <a class="card-title h6 text-decoration-none text-dark ms-1" href="./detalhes.html">Ref: <span style="color: #EA6D27;">KN0101</span></a>
+                        </div>
+                        
+                        
+                        <div class="card-home-info">
+                            <div><i class="bi bi-aspect-ratio" style="width: 50px;"></i> 42 m²</div>
+                            <div><i class="bi bi-house-door" style="width: 50px;"></i> 3 Quartos</div>
+                            <div><i class="bi bi-door-closed" style="width: 50px;"></i> 1 Suíte</div>
+                            <div><i class="bi bi-car-front" style="width: 50px;"></i> 2 Vagas</div>
+                            <div><i class="bi bi-bucket" style="width: 50px;"></i> 2 Banheiros</div>
+                        
+                        </div>
+                        
+                    </div>
+                    <a href="./detalhes.html" class="btn fs-5" style="color: #EA6D27;">mais +</a>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <nav aria-label="Page navigation" class="my-4">
+        <ul class="pagination nav justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+        </ul>
+    </nav>    
 
     <footer class="container-fluid py-4  ">
         <div class="row footer-informacao ">
@@ -179,8 +652,9 @@
                         imperdíveis.</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
                             class="visually-hidden">Endereço de email</label> <input id="newsletter1" type="email"
-                            class="form-control" placeholder="Digite seu email" required> <button
-                            class="btn btn-primary" type="email">Enviar</button> </div>
+                            class="form-control" placeholder="Digite seu email" required>
+                            <button class="btn text-white" type="email" style="background-color: #EA6D27;">Enviar</button>
+                    </div>
                 </form>
             </div>
 
