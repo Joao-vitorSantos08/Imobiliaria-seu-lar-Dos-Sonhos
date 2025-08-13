@@ -96,6 +96,6 @@ João Vitor Santos souza</a>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por João Vitor Santos Souza👋🏽
+Feito por João Vitor Santos Souza👋🏽,Ingrid Lemos👋🏽, João vitor Aguiar👋🏽 e  Valdir Nunes 👋🏽
 
 
