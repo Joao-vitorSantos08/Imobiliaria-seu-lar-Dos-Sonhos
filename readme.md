@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	  🚀✅ { Imobiliária - Seu lar dos sonhos } - Concluído ✅🚀
+	  🚀✅ Imobiliária - Seu lar dos sonhos - Concluído ✅🚀
 </h1>
 
 <p align="center">
