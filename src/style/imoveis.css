@@ -1,18 +1,19 @@
-.hero{
-    background: url("/src/assets/image/imovel\ 1.jpeg") center/cover no-repeat;
+.hero {
+    background: url("../assets/image/imovel\ 1.jpeg") center/cover no-repeat;
     min-height: 85vh;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
-.hero-overlay{
+
+.hero-overlay {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 32px;
     width: 100%;
 }
 
-.card-home-info{
+.card-home-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -84,7 +85,7 @@ footer {
 }
 
 .pagination .page-link {
-        color: #EA6D27;
+    color: #EA6D27;
 }
 
 .pagination .page-link:hover {
@@ -94,6 +95,6 @@ footer {
 }
 
 
-.butto-agendar{
+.butto-agendar {
     background-color: #EA6D27;
 }
