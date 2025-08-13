@@ -69,15 +69,22 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE AUTOR-->
-## 🦸 Autor
+## 🦸 Autores
 
 <a href="https://br.linkedin.com/in/Joao-vitorSantos08">
 João Vitor Santos souza</a>
  <br />
- Ingrid
- Valdir 
- João vitor Aguiar
- 
+ <a href="https://www.linkedin.com/in/ingrid-lemos-caetano/">
+ Ingrid Lemos</a>
+ <br />
+
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-48084b2b3/">
+ João vitor Aguiar </a>
+ <br />
+
+  <a href="https://www.linkedin.com/in/valdir-nunes-7b0a1122b/">
+    Valdir Nunes </a>
+ <br />
 <!--[![Gmail Badge](https://img.shields.io/badge/-mthalvarez2005@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mthalvarez2005@gmail.com)](mailto:mthalvarez2005@gmail.com) -->
 
 ---
